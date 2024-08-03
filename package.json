@@ -4,10 +4,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "dev": "nodemon sever.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "nodemon": "^1.10.2"
+  }
 }
